@@ -5,8 +5,10 @@ import admission from "../images/clg.jpg";
 import kunj from "../images/phdphoto.jpg";
 import { useEffect, useState } from "react";
 
+
+ const images = [college, phdphoto, admission, kunj];
 function Home(){
-  const images = [college, phdphoto, admission, kunj];
+ 
  
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -16,6 +18,7 @@ function Home(){
     }, 3000); // 3 second
 
     return () => clearInterval(interval);
+   
   }, []);
     
     return(
@@ -38,7 +41,7 @@ function Home(){
        </div>
      
       <div style={{background:"black"}}>
-        <img src={images[currentImage]} alt="College Image" style={{width:"500px",height:"300px"}} />
+        <img src={images[currentImage]} alt="CollegeImage" style={{width:"500px",height:"300px"}} />
       </div>
        
        <div><br/>

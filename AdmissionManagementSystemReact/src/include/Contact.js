@@ -1,4 +1,4 @@
-import college from "../images/college.jpg";
+
 import clg from "../images/clg.jpg";
 
 function Contact(){
@@ -15,7 +15,7 @@ function Contact(){
             <i className="bi bi-telephone-fill"> </i> Guddi Khan 8847786034</p>
     </div>
     <div style={{background:"pink",textAlign:"center"}}>
-        <img src={clg} alt="College Image" />
+        <img src={clg} alt="CollegeImage" />
       </div>
 
         </div>
