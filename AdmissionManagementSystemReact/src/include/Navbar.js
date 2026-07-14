@@ -33,7 +33,7 @@ function Navbar() {
         src={college}
         alt="CollegeImage"
         style={{
-          width: "70px",
+          width: "100%",
           height: "70px",
           borderRadius: "50%",
         }}
